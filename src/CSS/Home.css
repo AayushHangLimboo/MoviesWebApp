@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff;
+  }
+  
+  .home {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-radius: 4px 0 0 4px;
+    width: 300px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #555;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #e50914;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .search-button:hover {
+    background-color: #f40612;
+  }
+  
+  .error {
+    color: #ff0000;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    .search-input {
+      width: 100%;
+    }
+  }
+  
