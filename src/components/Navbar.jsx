@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Route,Routes } from 'react-router-dom'
 import Home from '../pages/Home'
 import Favourites from '../pages/Favourites'
+import "../CSS/Navbar.css"
 
 
 function Navbar() {

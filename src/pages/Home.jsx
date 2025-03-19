@@ -2,6 +2,8 @@ import { useState,useEffect } from "react";
 import MovieCard from "../components/MovieCard";
 import { searchMovies,getPopularMovies } from "../services/api";
 import "../CSS/Home.css";
+import Navbar from "../components/Navbar";
+
 function Home(){
     
     const[search,setSearch]=useState("");
